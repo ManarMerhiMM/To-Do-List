@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do list</title>
+    <link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>To-Do List</h1>
+
+    <form action="" id="taskForm">
+        <div id="formElementDiv">
+            <input id="taskDescription" type="text" placeholder="Task...">
+            <button id="addTaskBtn" type="submit">Add</button>
+        </div>
+    </form>
+
+
+    <ul id="taskList">
+        <h2>Task Log</h2>
+    </ul>
+
+    <div id="modalContainer">
+        <div id="modal">
+            <span id="closeModalBtn">&times;</span>
+            <h2>Task Edit</h2>
+            <input type="text" id="editDescription" placeholder="Update Task...">
+            <div id="modalFooter">
+                <button id="modalOkay">Okay</button>
+                <button id="modalCancel">Cancel</button>
+            </div>
+        </div>
+
+    </div>
+    
+    <footer>
+        <p>&#169;2025 <a href="https://www.linkedin.com/in/manar-merhi-65b859325/" target="_blank">Manar Merhi</a>
+        </p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
